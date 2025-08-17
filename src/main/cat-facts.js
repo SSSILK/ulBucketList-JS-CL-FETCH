@@ -39,6 +39,8 @@ async function getFact(){
 
     //logging the http response to the console
     console.log(responseObject);
+
+    content.innerText = JSON.stringify.responseObject;
 }
 
 
